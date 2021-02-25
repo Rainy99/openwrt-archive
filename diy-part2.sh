@@ -15,7 +15,6 @@
 
 
 #添加额外软件包
-git clone https://github.com/destan19/OpenAppFilter.git package/OpenAppFilter
 git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
 git clone https://github.com/garypang13/luci-app-bypass.git package/luci-app-bypass
 
