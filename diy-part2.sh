@@ -16,3 +16,4 @@
 
 #添加额外软件包
 git clone https://github.com/godros/luci-app-godproxy.git package/luci-app-godproxy
+git clone https://github.com/immortalwrt/luci-app-unblockneteasemusic.git package/luci-app-unblockneteasemusic
