@@ -113,11 +113,6 @@ jobs:
       if: (!cancelled())
       run: df -hT
       
-    - name: Upload img file artifact to Actions
-      uses: kittaakos/upload-artifact-as-is@master
-      with:
-        path: ${{ env.PACKAGED_OUTPUTPATH }}/
-
     - name: Upload bin directory
       uses: actions/upload-artifact@main
       if: steps.compile.outputs.status == 'success' && env.UPLOAD_BIN_DIR == 'true'
