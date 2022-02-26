@@ -20,8 +20,8 @@ on:
         default: 'false'
 
 env:
-  REPO_URL: https://github.com/destan19/openfros2
-  REPO_BRANCH: main
+  REPO_URL: https://github.com/destan19/openfros
+  REPO_BRANCH: fros-1.x
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config-x86
   DIY_P1_SH: diy-part1.sh
